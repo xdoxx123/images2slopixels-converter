@@ -35,8 +35,3 @@ function parse(data)
     return mainobject
     
 end
-local file = io.open("/home/xdoxx123/coding/rust/sif/poo.sif","rb")
-if file == nil then print("poo") return end
-local data = file:read("a")
-local coolshit = parse(data)
-
